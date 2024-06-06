@@ -1,0 +1,29 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    display: flex;
+}
+.side-panel {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    width: 600px;
+    height: 600px;
+    margin: 8px;
+}
+
