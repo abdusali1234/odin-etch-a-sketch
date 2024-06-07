@@ -33,8 +33,8 @@ function makeSquareGrid(gridSize) {
         const randR = Math.floor(Math.random()*256);
         const randG = Math.floor(Math.random()*256);
         const randB = Math.floor(Math.random()*256); 
-        const randomColor = `rgb(${randR},${randG},${randB})`;
-        cell.style.backgroundColor = randomColor;
+        const randomColour = `rgb(${randR},${randG},${randB})`;
+        cell.style.backgroundColor = randomColour;
       }
     } );
   }

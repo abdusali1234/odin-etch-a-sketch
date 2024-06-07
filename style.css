@@ -2,28 +2,86 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0px;
     display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
 }
 .side-panel {
     display: flex;
     flex-flow: column nowrap;
     margin: 8px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border: solid black;
+    border-radius: 20px;
+    width: 550px;
+    
+
+}
+
+.title {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    border-radius:  20px;
+    width: 500px;
+    height: 150px;
+    border: solid;
+    border-color: black;
+    margin: 8px;
 }
 
 .button-container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+    
+    
+    
+}
+
+button {
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+#normal {
+    background-color: black;
+    color: white;
+}
+
+#erase {
+    background-color: pink;
+}
+
+#rainbow {
+    background: linear-gradient(170deg, red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+    
 }
 
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 12px;
+    padding: 0px;
     width: 600px;
     height: 600px;
     margin: 8px;
+    background-color: white;
+    border: solid black;
 }
 
